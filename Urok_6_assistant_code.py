@@ -1,4 +1,3 @@
-# AIDA чує: голос → текст → команда або нейромережа → відповідь текстом
 import random
 from datetime import datetime
 
@@ -65,7 +64,6 @@ def respond(text):
     return ask_ai(text)
 
 
-# Перевіряємо мікрофон: якщо його немає — працюємо з клавіатурою
 try:
     with sr.Microphone():
         pass
