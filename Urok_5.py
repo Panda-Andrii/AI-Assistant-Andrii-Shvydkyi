@@ -28,7 +28,6 @@ SYSTEM = """Ти — Рекс, досвідчений ігровий наста�
 
 messages = [{"role": "system", "content": SYSTEM}]
 
-
 def chat(user_text):
     messages.append({"role": "user", "content": user_text})
     answer = ask_ai(messages)
