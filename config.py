@@ -1,4 +1,4 @@
-API_KEY = ""
-URL = ""
-MODEL = ""
+API_KEY = "YOUR_API_KEY"
+URL = "YOUR_URL"
+MODEL = "YOUR_MODEL"
 
